@@ -7,7 +7,6 @@ import Relogio from './Relogio';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <Relogio />
-    <Letreiro />
+    <App/>
   </>
 );
