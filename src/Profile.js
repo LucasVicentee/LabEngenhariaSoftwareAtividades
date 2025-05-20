@@ -1,9 +1,24 @@
-import './Profile.css'
+import Avatar from "./Avatar.js";
 
-export default function Profile() {
-    return (
-      <div>
-        <img src='https://i.imgur.com/MK3eW3As.jpg' alt='Katherine Johnson'/>
-      </div>
+function Card({children})
+{
+   return(
+    <div className="card">
+        {children}
+    </div>
+   );
+}
+
+export default function Profile(){
+    return(
+        <Card>
+            <Avatar 
+                person={{
+                    name: 'Katsuko Saruhashi',
+                    imageId: 'yfeOqp2'
+                }}
+                size={100}
+            />
+        </Card>
     );
-  }
+}

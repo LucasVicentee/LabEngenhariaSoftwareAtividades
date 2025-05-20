@@ -1,5 +1,7 @@
 import {Link} from "react-router-dom";
+import Gallery from "./Gallery.js";
 import {Profile} from "./Gallery.js";
+import Avatar from "./Avatar.js";
 import TodoList from "./TodoList.js";
 import Card from "./Profile.js";
 import PackingList from "./PackingList.js";
